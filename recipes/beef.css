@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #8CB8C5 */
+    /* background-color: white; */
+}
+
+html{
+    background-color: #8CB8C5;
+}
+
+body{
+    background-color: #8CB8C5;
+}
+
+.Recipe{
+    width: 600px;
+    margin: 20px auto;
+    padding: 5px 20px;
+    border: 2px solid 	#e72222;
+    background-color: #e7a43b;
+}
+
+.Recipe h1{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    border: 2px solid 	#e72222;
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    border: 2px solid 	#e72222;
+}
+
+.desc{
+   width: 300px;
+   height: 250px;
+   display: inline-block;
+   vertical-align: top;
+   text-align: center;
+   border: 2px solid 	#e72222;
+   padding: 15px;
+}
+
+.desc h2{
+    text-decoration: underline;
+}
+
+.ingredients li{
+    display: block;
+    width: 25%;
+    float: left;
+    height: 50px;
+    text-align: center
+}
+
+.ingredients h2{
+    text-decoration: underline;
+}
+.ingredients {
+    margin-top: 10px;
+    border: 2px solid red;
+    height: 190px;
+    padding: 5px 0px 5px 5px;
+}
+.Steps {
+    margin-top: 10px;
+    list-style-position: inside;
+    border: 2px solid 	#e72222;
+    padding: 10px;
+}
+
+.Steps h2{
+    text-decoration: underline;
+}
+
+.home{
+    width: 75px;
+    height: 30px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #e72222;
+}
+
+.home a{
+    text-decoration: none;
+    font-weight: bold;
+}
